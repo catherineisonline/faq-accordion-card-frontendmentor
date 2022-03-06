@@ -122,8 +122,8 @@ h1 {
   background-size: 25%;
   width: 4rem;
   height: 4rem;
+  margin-top: 5px;
 }
-
 .arrow.rotate {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -136,14 +136,13 @@ h1 {
 .question {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between ;
   color: var(--very-dark-grayish-blue);
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.5s;
 }
 .question.active {
   font-weight: 700;
 }
-
 .answer {
   display: none;
 }
